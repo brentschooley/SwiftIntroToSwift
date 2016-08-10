@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' timelineScrubberEnabled='true'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='HelloSwift'/>
+        <page name='WhySwift'/>
+        <page name='ConstantsAndVariables'/>
+        <page name='SimpleTypes'/>
+        <page name='Optionals'/>
+        <page name='Tuples'/>
+        <page name='Collections'/>
+        <page name='Control Flow'/>
+        <page name='Functions and Closures'/>
+        <page name='ObjectsAndClasses'/>
+        <page name='EnumsAndStructures'/>
+        <page name='Swift 3.0 Miscellaneous'/>
+    </pages>
+</playground>

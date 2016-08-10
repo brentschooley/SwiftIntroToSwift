@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=1&amp;CharacterRangeLoc=39&amp;EndingColumnNumber=40&amp;EndingLineNumber=5&amp;StartingColumnNumber=1&amp;StartingLineNumber=5&amp;Timestamp=492540873.492724"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=40&amp;EndingLineNumber=2&amp;StartingColumnNumber=1&amp;StartingLineNumber=2&amp;Timestamp=492540873.492886"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=1&amp;CharacterRangeLoc=144&amp;EndingColumnNumber=38&amp;EndingLineNumber=7&amp;StartingColumnNumber=1&amp;StartingLineNumber=7&amp;Timestamp=492540873.493023"
+         lockedSize = "{993, 237}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=37&amp;CharacterRangeLoc=14&amp;EndingColumnNumber=38&amp;EndingLineNumber=1&amp;StartingColumnNumber=1&amp;StartingLineNumber=1&amp;Timestamp=492540873.493159"
+         lockedSize = "{993, 235}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "YES">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=41&amp;CharacterRangeLoc=104&amp;EndingColumnNumber=42&amp;EndingLineNumber=7&amp;StartingColumnNumber=1&amp;StartingLineNumber=7&amp;Timestamp=492540873.493301"
+         lockedSize = "{1186, 292}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>
