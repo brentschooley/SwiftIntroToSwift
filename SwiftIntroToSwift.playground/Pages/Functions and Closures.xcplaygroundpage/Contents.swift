@@ -3,13 +3,13 @@
 import Foundation
 
 // Basic Function
-func sayHelloTo(name: String, day: String) -> String {
+func sayHelloTo(_ name: String, _ day: String) -> String {
     return "Hello \(name). Have a nice \(day)!"
 }
 
 
 #if swift(>=3.0)
-
+sayHelloTo("Brent", "Wednesday")
 #else
 sayHelloTo("Brent", day: "Friday")
 #endif
@@ -48,7 +48,10 @@ func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
 var scores = [90, 99, 60, 25, 100]
 
 #if swift(>=3.0)
-    
+    var (min, max, sum) = calculateStatistics(scores: scores)
+    min
+    max
+    sum
 #else
     var (min, max, sum) = calculateStatistics(scores)
     max

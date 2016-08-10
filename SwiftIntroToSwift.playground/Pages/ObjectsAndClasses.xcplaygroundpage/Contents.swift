@@ -12,7 +12,9 @@ class Shape {
     }
 }
 
-
+var basicShape = Shape()
+basicShape.numberOfSides = 3
+basicShape.simpleDescription()
 
 
 
@@ -47,6 +49,8 @@ class NamedShape {
     }
 }
 
+let namedShape = NamedShape(name: "square")
+namedShape.numberOfSides = 4
 
 
 
@@ -69,6 +73,8 @@ class Square: NamedShape {
     }
 }
 
+let square = Square(sideLength: 4.0, name: "square")
+square.area()
 
 
 
@@ -125,7 +131,7 @@ class TriangleAndSquare {
 
 
 // Optional chaining
-let optionalSquare: Square? = nil
+let optionalSquare: Square? = Square(sideLength: 3, name: "s")
 let sideLength = optionalSquare?.sideLength
 
 //: [Next](@next)

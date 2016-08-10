@@ -3,7 +3,19 @@
 import Foundation
 
 // Age as Integer
-var myAge = 34
+var myAge: Int = 34
+myAge + 1
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15,7 +27,7 @@ var myAgeFloat = Float(myAge)
 
 
 // Boolean
-var isOld = true
+var isOld = false
 
 
 // String concatenation / type coersion

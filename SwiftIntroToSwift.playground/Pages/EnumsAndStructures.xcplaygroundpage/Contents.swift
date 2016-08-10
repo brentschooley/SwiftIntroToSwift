@@ -85,7 +85,9 @@ enum Suit {
     }
 }
 
+var suit: Suit = Suit.spades
 
+suit = .hearts
 
 
 

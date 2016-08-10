@@ -3,7 +3,11 @@
 import Foundation
 
 // If
+let cold = false
 
+if cold {
+    
+}
 
 
 
@@ -24,7 +28,7 @@ import Foundation
 
 
 // Switch (with pattern matching)
-let vegetable = "red pepper"
+let vegetable = "jalapeno"
 
 switch vegetable {
 case "celery":
@@ -61,7 +65,7 @@ for (kind, numbers) in interestingNumbers {
         }
     }
 }
-print(largest)
+largest
 
 
 

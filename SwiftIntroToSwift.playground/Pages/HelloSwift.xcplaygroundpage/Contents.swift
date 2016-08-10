@@ -16,4 +16,4 @@ var swift = #imageLiteral(resourceName: "Taylor Swift.jpg")
 
 
 swift = #imageLiteral(resourceName: "swift_2x.png")
-//: [Constants and Variables](@next)
+//: [Why Swift?](@next)

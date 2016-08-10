@@ -11,11 +11,16 @@ var names = ["Tom", "Sally", "Sue", "John"]
 //This #if swift(>=3.0) is new in Swift 3.0
 #if swift(>=3.0)
     // All function parameters have labels unless you request otherwise
+    //UIFont.preferredFon
     
-    
+    class MyTableViewController: UITableViewController {
+        override func numberOfSections(in tableView: UITableView) -> Int {
+            return 1
+        }
+    }
     // Omit needless words
     
-    
+    let fullname = name.appending(" Schooley")
     // Upper camel case replaced with lower camel case for properties and enum values
     
     
@@ -23,7 +28,9 @@ var names = ["Tom", "Sally", "Sue", "John"]
     // (start with if let ctx = UIGraphicsGetCurrentContext() {)
     
     
-    
+if let ctx = UIGraphicsGetCurrentContext() {
+    ctx.setFillColor(UIColor.red.cgColor)
+}
     
     
  
