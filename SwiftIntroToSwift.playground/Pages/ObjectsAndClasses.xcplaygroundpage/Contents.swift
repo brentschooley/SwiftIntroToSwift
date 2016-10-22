@@ -37,7 +37,7 @@ basicShape.simpleDescription()
 // We should really have an initializer
 // -- Add a name and initializer
 class NamedShape {
-    var numberOfSides: Int = 0
+    var numberOfSides: Int = 3
     var name: String
     
     init(name: String) {
@@ -51,6 +51,7 @@ class NamedShape {
 
 let namedShape = NamedShape(name: "square")
 namedShape.numberOfSides = 4
+namedShape.simpleDescription()
 
 
 
@@ -75,6 +76,7 @@ class Square: NamedShape {
 
 let square = Square(sideLength: 4.0, name: "square")
 square.area()
+square.simpleDescription()
 
 
 
@@ -127,6 +129,9 @@ class TriangleAndSquare {
     }
 }
 
+protocol SomeProtocol {
+  
+}
 
 
 

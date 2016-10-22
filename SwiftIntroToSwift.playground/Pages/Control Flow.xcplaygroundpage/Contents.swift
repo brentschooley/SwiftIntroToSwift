@@ -3,10 +3,10 @@
 import Foundation
 
 // If
-let cold = false
+let cold = true
 
 if cold {
-    
+    print("Brrrrr")
 }
 
 
@@ -28,7 +28,8 @@ if cold {
 
 
 // Switch (with pattern matching)
-let vegetable = "jalapeno"
+var vegetable = "jalapeño"
+//vegetable = "watercress"
 
 switch vegetable {
 case "celery":

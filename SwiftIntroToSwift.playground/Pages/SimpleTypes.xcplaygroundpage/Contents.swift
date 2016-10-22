@@ -3,37 +3,24 @@
 import Foundation
 
 // Age as Integer
-var myAge: Int = 34
-myAge + 1
-
-
-
-
-
-
-
-
-
-
-
-
-
+var myAge: Int = 35
 
 // Age as Double
-var myAgeDouble = 34.0
-var myAgeFloat = Float(myAge)
+var myAgeDouble = 35.0
 
+// Age as Float
+var myAgeFloat = Float(myAgeDouble)
 
 
 
 // Boolean
-var isOld = false
+let isOld: Bool = false
 
 
 // String concatenation / type coersion
-var myName = "Brent"
-var description = myName + String(myAge)
-description = "My name is \(myName) and I am \(myAge) years old."
+// Name + age
+var myNamePlusAge = "Brent " + String(myAge)
+myNamePlusAge = "Brent \(myAge)"
 
 
 //: [Next](@next)

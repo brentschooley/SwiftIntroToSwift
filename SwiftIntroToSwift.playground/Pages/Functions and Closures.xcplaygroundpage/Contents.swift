@@ -3,13 +3,13 @@
 import Foundation
 
 // Basic Function
-func sayHelloTo(_ name: String, _ day: String) -> String {
+func sayHelloTo(name: String, day: String) -> String {
     return "Hello \(name). Have a nice \(day)!"
 }
 
 
 #if swift(>=3.0)
-sayHelloTo("Brent", "Wednesday")
+sayHelloTo(name: "Brent", day: "Wednesday")
 #else
 sayHelloTo("Brent", day: "Friday")
 #endif

@@ -8,7 +8,7 @@ numbers.count
 
 
 // Dictionary
-var status = [
+var status: [Int:String] =  [
     400: "Not Found",
     500: "Internal Server Error"
 ]

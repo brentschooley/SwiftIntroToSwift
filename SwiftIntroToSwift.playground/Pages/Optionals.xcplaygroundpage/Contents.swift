@@ -3,14 +3,25 @@
 import Foundation
 
 // Either has a value or is nil
-var mightNotExist: Int?
-mightNotExist = 42
-mightNotExist = 78
+var mightNotExist: Int? = nil
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Optional binding
 #if swift(>=3.0)
-if let foo = mightNotExist, mightNotExist > 60 {
+if let foo = mightNotExist, foo > 5 {
     foo.distance(to: 50)
 }
 #else
